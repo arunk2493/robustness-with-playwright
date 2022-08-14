@@ -1,0 +1,20 @@
+{
+  "name": "playwrightsamples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunk2493/robustness-with-playwright.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunk2493/robustness-with-playwright/issues"
+  },
+  "homepage": "https://github.com/arunk2493/robustness-with-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.25.0"
+  }
+}
