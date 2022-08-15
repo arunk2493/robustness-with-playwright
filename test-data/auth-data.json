@@ -1,0 +1,15 @@
+{
+  "cookies": [
+    {
+      "name": "name",
+      "value": "ArunKumar",
+      "domain": "webdriverjsdemo.github.io",
+      "path": "/auth",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

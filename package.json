@@ -1,20 +1,27 @@
 {
-  "name": "playwrightsamples",
+  "name": "playwrighttuts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "testconfig": "playwright test tests/sampletest1.spec.ts",
+    "singletest": "playwright test tests/example.spec.ts --workers 4 --config=./tests/playwright.config.ts",
+    "parallelbrowsertest": "playwright test tests/example.spec.ts --workers 4 --config=./tests/playwright.config.ts",
+    "pomtest": "playwright test tests/pom-tests.spec.ts --workers 4 --config=./tests/playwright.config.ts"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arunk2493/robustness-with-playwright.git"
+    "url": "git+https://github.com/arunk2493/playwrighttutorial.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arunk2493/robustness-with-playwright/issues"
+    "url": "https://github.com/arunk2493/playwrighttutorial/issues"
   },
-  "homepage": "https://github.com/arunk2493/robustness-with-playwright#readme",
+  "homepage": "https://github.com/arunk2493/playwrighttutorial#readme",
   "devDependencies": {
-    "@playwright/test": "^1.25.0"
+    "@playwright/test": "^1.25.0",
+    "allure-playwright": "^2.0.0-beta.19"
   }
 }

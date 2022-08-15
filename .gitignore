@@ -105,3 +105,6 @@ dist
 /test-results/
 /playwright-report/
 /playwright/.cache/
+
+#ignore files
+/allure-results/
